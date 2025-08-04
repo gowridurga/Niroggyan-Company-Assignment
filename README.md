@@ -43,17 +43,18 @@ A modern web application for booking doctor appointments built with React and Ty
 
 ## 🏗️ Project Structure
 
-```
 src/
-├── components/
-│   ├── common/          # Shared components
-│   ├── doctors/         # Doctor components
-│   └── appointments/    # Booking components
-├── context/             # Global state
-├── data/               # Mock data
-├── types/              # TypeScript types
-└── pages/              # Main pages
-```
+├── components/           # Reusable UI components
+│   ├── common/          # Shared components (Header, SearchBar, Loading)
+│   ├── doctors/         # Doctor-related components
+│   └── appointments/    # Booking-related components
+├── context/             # React Context for state management
+├── data/               # Mock data and utilities
+├── types/              # TypeScript type definitions
+├── pages/              # Main page components
+├── hooks/              # Custom React hooks
+├── utils/              # Utility functions
+└── App.tsx             # Main application component
 
 ## 📱 Usage
 
